@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+
+    <style type="text/css">
+      .bg {
+        background-image: url('https://covalentworld-my.sharepoint.com/personal/ama_gammanpila_covalentworld_com/Documents/New%20folder/New%20folder/March%202024/19-03-2024/EDM/api2-03.png');
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: 100% 100%;
+      }
+
+      .bg2 {
+        background-image: url('https://covalentworld-my.sharepoint.com/personal/ama_gammanpila_covalentworld_com/Documents/New%20folder/New%20folder/March%202024/19-03-2024/EDM/cloud2-03.png');
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: 100% 100%;
+      }
+
+      .bg3 {
+        background-image: url('https://covalentworld-my.sharepoint.com/personal/ama_gammanpila_covalentworld_com/Documents/New%20folder/New%20folder/March%202024/19-03-2024/EDM/bluebg-03.png');
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: 100% 100%;
+      }
+
+      .logo {
+        width: 20%;
+        height: auto;
+        padding: 10% 10% 5% 10%;
+      }
+
+      .title {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 400%;
+        color: white;
+        padding: 10% 10% 0% 10%;
+      }
+      span {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        color: #15d980;
+        font-style: bold;
+      }
+
+      .btext {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 400;
+        font-size: 36pt;
+        color: white;
+        padding: 0% 10% 20% 10%;
+      }
+
+      .title2 {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 400%;
+        color: #070b3f;
+        padding: 10% 10% 0% 10%;
+      }
+
+      .btext2 {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 400;
+        font-size: 36pt;
+        color: #070b3f;
+        padding: 0% 10% 10% 10%;
+      }
+
+      .box{
+        display: flex;
+        flex-wrap: nowrap;
+
+      }
+
+      .title3{
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 200%;
+        color: #070b3f;
+        padding: 0% 10% 0% 20%;
+      }
+
+      .btext3{
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 400;
+        font-size: 22pt;
+        color: #070b3f;
+        padding: 0% 20% 20% 20%;
+      }
+
+      .footer{
+        width: 100%;
+        height: auto;
+      }
+
+
+
+
+      @media only screen and (max-width: 600px){
+        .title {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 150%;
+        color: white;
+        padding: 10% 10% 0% 10%;
+      }
+
+      .btext {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 400;
+        font-size: 10pt;
+        color: white;
+        padding: 0% 10% 20% 10%;
+      }
+
+      .title2 {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 150%;
+        color: #070b3f;
+        padding: 10% 10% 0% 10%;
+      }
+
+      .btext2 {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 400;
+        font-size: 10pt;
+        color: #070b3f;
+        padding: 0% 10% 10% 10%;
+      }
+
+      .title3{
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 100%;
+        color: #070b3f;
+        padding: 0% 10% 0% 20%;
+      }
+
+      .btext3{
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 400;
+        font-size: 8pt;
+        color: #070b3f;
+        padding: 0% 20% 20% 20%;
+      }
+    }
+
+
+
+
+    @media only screen and (max-width: 1024px){
+        .title {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 200%;
+        color: white;
+        padding: 10% 10% 0% 10%;
+      }
+
+      .btext {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 400;
+        font-size: 12pt;
+        color: white;
+        padding: 0% 10% 20% 10%;
+      }
+
+      .title2 {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 200%;
+        color: #070b3f;
+        padding: 10% 10% 0% 10%;
+      }
+
+      .btext2 {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 400;
+        font-size: 12pt;
+        color: #070b3f;
+        padding: 0% 10% 10% 10%;
+      }
+
+      .title3{
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 150%;
+        color: #070b3f;
+        padding: 0% 10% 0% 20%;
+      }
+
+      .btext3{
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 400;
+        font-size: 10pt;
+        color: #070b3f;
+        padding: 0% 20% 20% 20%;
+      }
+    }
+
+
+
+    @media only screen and (max-width: 1360px){
+        .title {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 250%;
+        color: white;
+        padding: 10% 10% 0% 10%;
+      }
+
+      .btext {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 400;
+        font-size: 14pt;
+        color: white;
+        padding: 0% 10% 20% 10%;
+      }
+
+      .title2 {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 250%;
+        color: #070b3f;
+        padding: 10% 10% 0% 10%;
+      }
+
+      .btext2 {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 400;
+        font-size: 14pt;
+        color: #070b3f;
+        padding: 0% 10% 10% 10%;
+      }
+
+      .title3{
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 200%;
+        color: #070b3f;
+        padding: 0% 10% 0% 20%;
+      }
+
+      .btext3{
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 400;
+        font-size: 12pt;
+        color: #070b3f;
+        padding: 0% 20% 20% 20%;
+      }
+    }
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="bg">
+      <img
+        class="logo"
+        src="https://covalentworld-my.sharepoint.com/personal/ama_gammanpila_covalentworld_com/Documents/New%20folder/New%20folder/March%202024/19-03-2024/EDM/Covalent%20Logo%20Reversed%20(1).png"
+        alt="Covalent logo"
+      />
+      <h1 class="title">
+        Expert <span>IFS Solutions</span> Tailored for Your Business
+      </h1>
+      <h3 class="btext">
+        As a trusted <span>IFS</span> partner, we streamline operations from
+        <span>installation to seamless integration </span> and offer enhanced
+        day-to-day efficiency through our off-the-shelf apps.
+      </h3>
+    </div>
+
+    <div>
+      <h1 class="title2">
+        Tailored <span> ERP Integration Solutions </span> for Your Business
+      </h1>
+      <h3 class="btext2">
+        Discover seamless IFS ERP integration with our bespoke solutions.
+        Enhance your business efficiency with tailored ERP offerings for a
+        smooth transition to optimised operations.
+      </h3>
+    </div>
+
+    <div class="bg2">
+      <h1 class="title">
+        Unlock the Power of Covalent's <span>Secure and Scalable</span> Cloud
+        Hosting
+      </h1>
+      <h3 class="btext">
+        <span>Empower</span> your crucial business operations with our secure
+        hosting, leveraging IFS Cloud's adaptable architecture and advanced
+        analytics for well-informed decisions and strategic advancements.
+      </h3>
+    </div>
+
+    <div>
+      <h1 class="title2">
+        Covalent Support: Your Reliable <span>24/7</span> Partner
+      </h1>
+      <h3 class="btext2">
+        Boost your business with <span>Covalent Support</span>, providing 24/7
+        maintenance and support for the full potential of IFS Cloud. Explore two
+        tailored options to meet your unique support needs and preferences.
+      </h3>
+    </div>
+
+    <div class="box">
+      <div>
+        <h2 class="title3">Covalent Care:</h2>
+        <h4 class="btext3">
+          Benefit from proactive and continuous support through a retainer plan
+          with SLAs. This structured approach ensures the seamless operation of
+          your ERP system, offering peace of mind for uninterrupted business
+          support.
+        </h4>
+      </div>
+      <div>
+        <h2 class="title3">Covalent Flex:</h2>
+        <h4 class="btext3">
+          Tailored for flexibility, this on-demand support lets you make
+          requests, adjusting assistance as your business needs evolve.
+          Experience adaptable support designed for your dynamic requirements
+          with Covalent Flex.
+        </h4>
+      </div>
+    </div>
+
+    <div class="bg3">
+      <h1 class="title">We believe in the power of Collaboration </h1>
+      <h3 class="btext"><span>Partner with us</span> to take your business into new heights</h3>
+      <img src="https://covalentworld-my.sharepoint.com/personal/ama_gammanpila_covalentworld_com/Documents/New%20folder/New%20folder/March%202024/19-03-2024/EDM/footer-03.png" alt="" class="footer">
+    </div>
+     
+  </body>
+</html>
